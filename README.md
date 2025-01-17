@@ -20,3 +20,15 @@ This project is a basic C++ game engine built using Windows API (Win32). It is d
 - Windows operating system (tested on Windows 10)
 
 ## Getting Started
+
+
+
+## How to create a Simple Game
+To create your own game, you need to override a few methods in the WinGame.cpp file. These methods allow you to define your game's name, initialization logic, game update loop, rendering logic, and shutdown sequence.
+
+Summary of Methods to Override:
+const char* gameName(): Set the game window title.
+void initialize(): Initialize game data.
+void update(float dt): Update game logic every frame.
+void render(): Render the game each frame.
+void shutdown(): Clean up game resources after quitting.
